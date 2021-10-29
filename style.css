@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Itim', cursive;
+}
+
+h1 {
+  color: white;
+}
+
+.background {
+  background-color: #12181b;
+  height: 100vh;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#form {
+  text-align: center;
+}
+
+button {
+  color: green;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.display {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+}
+
+.hide {
+  display: none;
+}
+
+.tile {
+  border: 1px solid white;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.playerX {
+  color: #09c372;
+}
+
+.playerO {
+  color: #498afb;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.controls button {
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+
+.restart {
+  background-color: #498afb;
+}
+
+#reset {
+  background-color: #ff3860;
+  margin-bottom: 25px;
+}
+
+.hidden {
+  display: none;
+}
